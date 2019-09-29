@@ -1,0 +1,47 @@
+"bridge": {
+    "name": "Homebridge",
+    "username": "CC:22:3D:E3:CE:30", # this can be edited, but the structure cannot change
+    "pin": "111-11-111" # this can be edited, but the structure cannot change
+  },
+  "description": "The Curry homebridge"
+  "ports": {
+    "start": 52100,
+    "end": 52150,
+    "comment": "This section is used to control the range of ports that separate accessory (like camera or television) should be bind to."
+  },
+  "accessories": [
+  ],
+  "platforms": [
+    {
+      "platform": "Hubitat-MakerAPI",
+      "name": "Hubitat",
+      "app_url": "http://http://192.168.1.IPNUMBER/apps/api/APP_ID/",
+      "access_token": "TOKEN_GOES_HERE",
+      "polling_seconds": 300,
+      "temperature_unit": "F",
+      "mode_switches": true,
+      "hsm": true,
+      "debug": false,
+      "excluded_capabilities": {
+        "HUBITAT-DEVICE-ID-1": [
+          "Switch",
+          "TemperatureMeasurement"
+         ]
+      },
+      "excluded_attributes": {
+        "HUBITAT-DEVICE-ID-1": [
+          "power",
+          "humidity"
+         ]
+      },
+      "logFile": {
+         "enabled": true,
+         "path": "",
+         "file": "",
+         "compress": true,
+         "keep": 5,
+         "size": "10m"
+      }
+    }
+  ]
+}
