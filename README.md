@@ -2,19 +2,29 @@
 
 ## The Hub
 
-[Hubitat](https://hubitat.com/)
+A [raspberry pi 4](https://amzn.to/3acKqtk) running [Home Assistant](https://www.home-assistant.io/).
+
+_I'm in the middle of transitiong from [/hubitat](Hubitat)._
 
 ## Devices
+_Links go to the actual products I bought, so some may no longer exist_
 
-- Harmony Hub
+### A/V
+- [Harmony Hub](https://amzn.to/2TugCBJ)
+
+### Lighting
 - Hue bulbs
+  - 6 [plain white](https://amzn.to/2x24fp1)
+  - 2 [color bulbs](https://amzn.to/3ageHYg)
+  - 2 [light strips](https://amzn.to/2Ic2GY2)
+  - 2 [Lutron dimmers](https://amzn.to/386UGSA)
+- One [Wyze bulb](https://wyze.com/wyze-bulb.html)
 
-## Server
-Mac mini running [homebridge](https://github.com/nfarina/homebridge/wiki/Install-Homebridge-on-macOS) connected via the [hubitat maker api](https://www.npmjs.com/package/homebridge-hubitat-makerapi.)
+### HVAC
+- [ecobee 3](https://amzn.to/2Tw35th)
 
-### 'Unofficial' Hubitat integrations
-- App Watchdog 2 - by [bptworld](https://github.com/bptworld/Hubitat/tree/master/Apps/Apps%20Watchdog%202) - Automatic updates for user-installed apps
-- Logitech Harmony Driver - by [ogiewon](https://github.com/ogiewon/Hubitat/tree/master/Drivers/logitech-harmony-hub-parent.src)
-- Wemo Connect - by [jason0x43](https://github.com/jason0x43/hubitat) - provides control over Wemo switches
-- Echo speaks - by [tonesto7](https://github.com/tonesto7/echo-speaks) - push audio TTS from my system to my echo devices
-- NOAA Weather Alerts - by [PrayerfulDrop](https://github.com/PrayerfulDrop/Hubitat/tree/master/NOAA) - get weather alerts
+### Power
+- Some WeMo outlets
+
+### Sensors
+- Wyze [door sensors](https://wyze.com/wyze-sense.html)
