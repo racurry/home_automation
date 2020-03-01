@@ -4,7 +4,7 @@
 
 A [raspberry pi 4](https://amzn.to/3acKqtk) running [Home Assistant](https://www.home-assistant.io/).
 
-_I'm in the middle of transitiong from [/hubitat](Hubitat)._
+_I'm in the middle of transitiong from [Hubitat](/hubitat)._
 
 ## Devices
 _Links go to the actual products I bought, so some may no longer exist_
@@ -28,3 +28,6 @@ _Links go to the actual products I bought, so some may no longer exist_
 
 ### Sensors
 - Wyze [door sensors](https://wyze.com/wyze-sense.html)
+
+## Cleaning
+- [iRobot Roomba 671](https://amzn.to/2Te8whI)
